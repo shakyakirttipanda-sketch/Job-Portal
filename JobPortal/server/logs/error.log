@@ -1,0 +1,14 @@
+2026-08-02 16:10:45 [ERROR]: ValidationError: Job validation failed: company: Cast to ObjectId failed for value "<Company_ID>" (type string) at path "company", deadline: Path `deadline` is required., category: Path `category` is required.
+    at Document.invalidate (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\document.js:3538:32)
+    at model.$set (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\document.js:1549:12)
+    at model.$set (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\document.js:1198:16)
+    at model.Document (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\document.js:182:12)
+    at model.Model (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\model.js:143:12)
+    at new model (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\model.js:4998:15)
+    at Function.create (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\model.js:2761:16)
+    at file:///C:/Users/sahoo/OneDrive/Desktop/HTML98/JobPortal/server/controllers/jobController.js:11:25
+    at file:///C:/Users/sahoo/OneDrive/Desktop/HTML98/JobPortal/server/utils/asyncHandler.js:3:21
+    at Layer.handleRequest (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\router\lib\layer.js:152:17)
+2026-08-04 20:02:00 [ERROR]: Error: User not found
+    at file:///C:/Users/sahoo/OneDrive/Desktop/HTML98/JobPortal/server/controllers/authController.js:82:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)

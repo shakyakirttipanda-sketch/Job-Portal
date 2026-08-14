@@ -1,0 +1,67 @@
+2026-08-02 15:35:11 [INFO]: Server running on port 5000
+2026-08-02 15:35:21 [INFO]: Server running on port 5000
+2026-08-02 15:38:55 [INFO]: New user registered: admin@example.com
+2026-08-02 15:39:36 [INFO]: New user registered: employer@example.com
+2026-08-02 15:40:24 [INFO]: New user registered: john@example.com
+2026-08-02 15:40:55 [INFO]: User logged in: admin@example.com
+2026-08-02 15:44:23 [INFO]: Profile updated: admin@example.com
+2026-08-02 15:50:34 [INFO]: User logged in: employer@example.com
+2026-08-02 15:51:58 [INFO]: Company created: OpenAI Technologies
+2026-08-02 16:03:18 [INFO]: Server running on port 5000
+2026-08-02 16:03:31 [INFO]: Server running on port 5000
+2026-08-02 16:03:34 [INFO]: Server running on port 5000
+2026-08-02 16:03:37 [INFO]: Server running on port 5000
+2026-08-02 16:05:15 [INFO]: Company updated: OpenAI Technologies Pvt Ltd
+2026-08-02 16:05:37 [INFO]: Company deleted: OpenAI Technologies Pvt Ltd
+2026-08-02 16:10:45 [ERROR]: ValidationError: Job validation failed: company: Cast to ObjectId failed for value "<Company_ID>" (type string) at path "company", deadline: Path `deadline` is required., category: Path `category` is required.
+    at Document.invalidate (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\document.js:3538:32)
+    at model.$set (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\document.js:1549:12)
+    at model.$set (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\document.js:1198:16)
+    at model.Document (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\document.js:182:12)
+    at model.Model (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\model.js:143:12)
+    at new model (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\model.js:4998:15)
+    at Function.create (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\mongoose\lib\model.js:2761:16)
+    at file:///C:/Users/sahoo/OneDrive/Desktop/HTML98/JobPortal/server/controllers/jobController.js:11:25
+    at file:///C:/Users/sahoo/OneDrive/Desktop/HTML98/JobPortal/server/utils/asyncHandler.js:3:21
+    at Layer.handleRequest (C:\Users\sahoo\OneDrive\Desktop\HTML98\JobPortal\server\node_modules\router\lib\layer.js:152:17)
+2026-08-04 19:22:17 [INFO]: Server running on port 5000
+2026-08-04 19:53:33 [INFO]: Server running on port 5000
+2026-08-04 19:54:20 [INFO]: User logged in: admin@example.com
+2026-08-04 19:58:33 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:28 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:30 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:31 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:31 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:32 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:32 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:32 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:32 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:32 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:33 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:34 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:34 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:34 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:35 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:36 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:36 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:36 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:36 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:37 [INFO]: User logged in: admin@example.com
+2026-08-04 20:01:37 [INFO]: User logged in: admin@example.com
+2026-08-04 20:02:00 [ERROR]: Error: User not found
+    at file:///C:/Users/sahoo/OneDrive/Desktop/HTML98/JobPortal/server/controllers/authController.js:82:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-08-04 20:02:16 [INFO]: User logged in: admin@example.com
+2026-08-04 20:02:32 [INFO]: User logged in: admin@example.com
+2026-08-04 20:02:34 [INFO]: User logged in: admin@example.com
+2026-08-04 20:02:57 [INFO]: User logged in: admin@example.com
+2026-08-04 20:02:58 [INFO]: User logged in: admin@example.com
+2026-08-04 20:02:58 [INFO]: User logged in: admin@example.com
+2026-08-04 20:02:58 [INFO]: User logged in: admin@example.com
+2026-08-04 20:04:06 [INFO]: User logged in: admin@example.com
+2026-08-04 20:04:06 [INFO]: User logged in: admin@example.com
+2026-08-04 20:04:14 [INFO]: User logged in: admin@example.com
+2026-08-04 20:12:10 [INFO]: User logged in: admin@example.com
+2026-08-04 20:14:14 [INFO]: User logged in: admin@example.com
+2026-08-04 20:18:47 [INFO]: User logged in: admin@example.com
+2026-08-04 20:25:40 [INFO]: User logged in: admin@example.com
